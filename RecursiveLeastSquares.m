@@ -69,7 +69,7 @@ y_estm = zeros(N, 1);
 
 %% Recursive Least Squares Algorithm
 % Filling the Phi matrix
-for j = 2 : N
+for j = n : N
     
         for i = 1 : na % this for loop used to fill parts in the same line that pertains to the output "denomenator"
             if ((j-i)<=0)
